@@ -26,3 +26,63 @@ This project was developed as a mini project for the **Bachelor of Engineering (
 ---
 
 ## 🏗️ System Architecture
+![Architecture](assets/architecture.png)
+
+---
+## 📂 Project Structure
+
+### Backend Structure
+
+```
+backend/
+│
+├── node_modules/
+│
+├── src/
+│   ├── contexts/
+│   │
+│   ├── controllers/
+│   │   ├── socketManager.js
+│   │   ├── user.controller.js
+│   │
+│   ├── models/
+│   │   ├── meeting.model.js
+│   │   ├── users.model.js
+│   │
+│   ├── routes/
+│   │   ├── users.routes.js
+│   │
+│   ├── app.js
+│
+├── package.json
+├── package-lock.json
+```
+### Frontend Structure
+```
+frontend/
+├── node_modules/
+├── public/
+├── src/
+│   ├── contexts/
+│   │   └── AuthContext.jsx
+│   ├── pages/
+│   │   ├── authentication.jsx
+│   │   ├── history.jsx
+│   │   ├── home.jsx
+│   │   ├── landing.jsx
+│   │   └── VideoMeet.jsx
+│   ├── styles/
+│   │   └── videoComp.css
+│   ├── utils/
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── environment.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── package-lock.json
+└── package.json
+```
